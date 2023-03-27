@@ -16,7 +16,7 @@ For this task, you need to implement Thompson's construction algorithm for conve
     state of the second (right) NFA; the resulting merged state is the accept state of the first NFA.
 
 
-## Project Details 🔍
+## Task Details 🔍
 - You should implement a class constructor `RegExToNfa` and a method `toString`.
 - `RegExToNfa` takes one parameter which is a string of the form **A#R**. **A** is a string representation of an alphabet **Σ**, a semicolon-separated sequence of alphabetically sorted symbols, and **R** is a postfix regular expression over **Σ**.
 - `RegExToNfa` constructs the NFA to **R** as per Thompson’s construction.
