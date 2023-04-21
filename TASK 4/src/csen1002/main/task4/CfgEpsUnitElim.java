@@ -252,21 +252,4 @@ public class CfgEpsUnitElim {
 		}
 	}
 
-//	public static void main(String[] args) {
-//		CfgEpsUnitElim x = new CfgEpsUnitElim(
-//				"S;M;P;G;B;I;X#b;j;o;p#S/oPBbM,pMXBp;M/GjMX,I,oMB;P/B,G,ISIbI,M,XPo,jIbI;G/SSBI,o,pISM;B/GGIS,MMIBb,P,SGjG,j;I/BpPo,M;X/GX,MPP");
-//
-//		x.eliminateUnitRules();
-//		for (String key : x.myList.keySet()) {
-//			System.out.print(key + ": ");
-//			// loop through the ArrayList for each key
-//			for (String value : x.myList.get(key)) {
-//				System.out.print(value + " | ");
-//			}
-//			System.out.println();
-//		}
-//		System.out.println(x.MyVariables.toString());
-//		System.out.println(x.myTerminals);
-//		System.out.println(x.toString());
-//	}
 }
