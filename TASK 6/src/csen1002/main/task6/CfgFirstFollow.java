@@ -118,7 +118,7 @@ public class CfgFirstFollow {
 		firstOfFirst();
 
 		// remove the extra "epsilon" from its non-terminals
-		for (String var : noEpsilon) {
+		for (String var : myVariables) {
 			if (!myEpsilonCount.contains(var)) {
 				String first = myFirst.get(var);
 				first = first.replace("e", "");
@@ -276,6 +276,7 @@ public class CfgFirstFollow {
 					}
 				}
 			}
+
 		}
 
 	}
@@ -319,7 +320,7 @@ public class CfgFirstFollow {
 								// the FIRST set contain epsilon so the FOLLOW of myVariable is equal to the
 								// FOLLOW of next
 								if (firstSet.contains("e")) {
-									String newRule = rule.substring(0, pos.get(j) + 1);
+									String newRule = rule.substring(0, pos.get(j) + 2);
 									String temp = "";
 									if (firstSet.length() - 1 > 1) {
 
@@ -386,8 +387,13 @@ public class CfgFirstFollow {
 	}
 
 	public String followHandel(String myKey, String var, String rule, int pos) {
-
 		char letter = rule.charAt(pos);
+		if ((letter + "").equals(var)) {
+			if (pos + 1 < rule.length()) {
+				letter = rule.charAt(pos + 1);
+			}
+		}
+
 		String result = "";
 
 		if (letter >= 'A' && letter <= 'Z') {
@@ -433,7 +439,7 @@ public class CfgFirstFollow {
 	}
 
 	public void followOfFollow() {
-		;
+
 		boolean change = true;
 
 		while (change) {
@@ -462,6 +468,7 @@ public class CfgFirstFollow {
 					myFollow.put(entry.getKey(), acceptRule);
 				}
 			}
+
 		}
 
 	}
@@ -479,11 +486,17 @@ public class CfgFirstFollow {
 					result.add(i);
 				}
 			}
+
 		}
 
 		return result;
 	}
 
+	public static void main(String[] args) {
+		CfgFirstFollow x = new CfgFirstFollow(
+				"S;W;B;E;T;V;D#k;p;q;t;w#S/W,pTTtS,qT;W/S,W,e,qD,qETt;B/B,E,ESkVD,TpD,WDED,e,wSpD;E/DwED,S,SBk,VpWtB,W,qTqSD,wST;T/pDk,qWqT,tS;V/S,TDSD,TVpW,WTp,WVTWt,kDVW,q;D/DBSVD,Dw,tTt");
+		x.follow();
+	}
 }
 
 class CfgEpsUnitElim {
