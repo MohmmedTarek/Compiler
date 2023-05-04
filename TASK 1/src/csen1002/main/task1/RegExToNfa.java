@@ -4,7 +4,13 @@ import java.util.LinkedList;
 import java.util.Stack;
 import java.util.Collections;
 
-
+/**
+ * Write your info here
+ * 
+ * @name Mohamed Tarek
+ * @id 49-12309
+ * @labNumber 20
+ */
 
 public class RegExToNfa {
 

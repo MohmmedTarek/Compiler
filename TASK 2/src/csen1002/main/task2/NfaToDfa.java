@@ -7,7 +7,13 @@ import java.util.LinkedList;
 import java.util.Set;
 import java.util.Stack;
 
-
+/**
+ * Write your info here
+ * 
+ * @name Mohamed Tarek
+ * @id 49-12309
+ * @labNumber 20
+ */
 
 public class NfaToDfa {
 

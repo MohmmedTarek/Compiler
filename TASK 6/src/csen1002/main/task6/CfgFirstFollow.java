@@ -48,6 +48,9 @@ public class CfgFirstFollow {
 		for (int i = 0; i < cfg.length(); i++) {
 
 			if ((cfg.charAt(i) + "").compareTo("A") >= 0 && (cfg.charAt(i) + "").compareTo("Z") <= 0) {
+				if ((cfg.charAt(i + 1) + "").compareTo("'") == 0) {
+					myVariables.add(cfg.charAt(i) + "'");
+				} else {
 					myVariables.add(cfg.charAt(i) + "");
 				}
 
