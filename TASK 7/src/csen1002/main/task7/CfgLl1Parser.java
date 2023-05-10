@@ -312,21 +312,4 @@ public class CfgLl1Parser {
 
 	}
 
-	
-	
-//	public static void main(String[] args) {
-//		String input = "S;Z;R;O;Y#b;k;l;m;q;s;t#S/sS,lR;Z/bR,OlOY,sRlY;R/m,tOl,e;O/mYs,kRl,e;Y/sS,lZqY#S/s,l;Z/b,klm,s;R/m,t,e;O/m,k,e;Y/s,l#S/$qs;Z/q;R/$lqs;O/l;Y/qs";
-//		CfgLl1Parser x = new CfgLl1Parser(input);
-//		System.out.println(x.myVariables.toString());
-//		System.out.println(x.myTerminals.toString());
-//		System.out.println("the rules " + x.myRules.toString());
-//		System.out.println("the first " + x.myFirst.toString());
-//		System.out.println("the follow " + x.myFollow.toString());
-//		x.genParsingTable();
-//		System.out.println("parsing table " + x.parsingTable.toString());
-//		System.out.println("S;lR;ltOl;ltmYsl;ltmlZqYsl;ltmlOlOYqYsl;ltmllOYqYsl;ltmllmYsYqYsl;ERROR");
-//		System.out.println(x.parse("ltmllmm"));
-//
-//	}
-
 }
