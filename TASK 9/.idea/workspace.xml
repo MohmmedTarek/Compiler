@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b0743c49-66e6-4e70-97cf-57c3f34f70dc" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProjectId" id="2PsSInuPpd4SqDqF4lntcDunSOn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/MOHMMED/Intellij Project/TASK9/src/csen1002/tests/task9",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "actions.on.save"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MOHMMED\Intellij Project\TASK9\src\csen1002\tests\task9" />
+      <recent name="D:\MOHMMED\Intellij Project\TASK9\src\csen1002\main\task9" />
+      <recent name="D:\MOHMMED\Intellij Project\TASK9\grammers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Task9TestsBatch0 and 1 more">
+    <configuration name="Task9Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="csen1002.main.task9.Task9Runner" />
+      <module name="TASK9" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="csen1002.main.task9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task9TestsBatch0 and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TASK9" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="csen1002.tests.task9.Task9TestsBatch0" />
+        <pattern testClass="csen1002.tests.task9.Task9TestsBatch2" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task9TestsBatch0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TASK9" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="csen1002.tests.task9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="csen1002.tests.task9" />
+      <option name="MAIN_CLASS_NAME" value="csen1002.tests.task9.Task9TestsBatch0" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task9TestsBatch0.testString1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TASK9" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="csen1002.tests.task9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="csen1002.tests.task9" />
+      <option name="MAIN_CLASS_NAME" value="csen1002.tests.task9.Task9TestsBatch0" />
+      <option name="METHOD_NAME" value="testString1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task9TestsBatch2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TASK9" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="csen1002.tests.task9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="csen1002.tests.task9" />
+      <option name="MAIN_CLASS_NAME" value="csen1002.tests.task9.Task9TestsBatch2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Task9TestsBatch0 and 1 more" />
+        <item itemvalue="JUnit.Task9TestsBatch2" />
+        <item itemvalue="JUnit.Task9TestsBatch0" />
+        <item itemvalue="Application.Task9Runner" />
+        <item itemvalue="JUnit.Task9TestsBatch0.testString1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0743c49-66e6-4e70-97cf-57c3f34f70dc" name="Changes" comment="" />
+      <created>1684244221334</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684244221334</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
