@@ -1,6 +1,6 @@
 # Compiler 💻
 
-**Objective** 🚀
+## Objective 🚀
 
 The objective of this task is to implement a fallback deterministic finite automaton with actions (FDFA) abstract data type. An FDFA is defined by a sextuple (Q, Σ, δ, q0, F, A), where:
 - Q is a nonempty, finite set of states.
@@ -12,7 +12,7 @@ The objective of this task is to implement a fallback deterministic finite autom
 
 Refer to the slides of Lecture 2 of CSEN1003 for more detailed information about the operation of FDFA.
 
-**Requirements** 📋
+## Requirements 📋
 
 To fulfill this task, adhere to the following requirements:
 - **Assumptions**: 
@@ -36,7 +36,7 @@ To fulfill this task, adhere to the following requirements:
     0;1;2;3#a;b#0,a,0;0,b,1;1,a,2;1,b,1;2,a,0;2,b,3;3,a,3;3,b,3#0#1;2
     ```
 
-**Running the Program**🏃‍♂️
+## Running the Program🏃‍♂️
 
 - The `run` method simulates the operation of the constructed FDFA on a given string and returns a semicolon-separated sequence of tokens.
 - For instance, running the above FDFA on the string `baababb` produces the output `baaba, 2; bb, 1`.
