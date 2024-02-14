@@ -22,9 +22,9 @@ To fulfill this task, adhere to the following requirements:
 - **Example**:
   - For example 🌟, consider the CFG _G1_ = ({S, T, L}, {a, b, c, d, i}, R, S), where **R** is given by the following productions.
     ```
-    S → S c T i | L a | T i | b
-    T → a S b | L a b S | i
-    L → S d L | S i
+    S → ScTi | La | Ti | b
+    T → aSb | LabS | i
+    L → SdL | Si
     ```
     This CFG will have the following string encoding.
     ```
