@@ -1,4 +1,4 @@
-# Computing First and Follow Sets 📝
+# Compiler 💻
 
 ## Objective 🎯
 
