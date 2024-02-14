@@ -22,7 +22,7 @@ This project implements the following tasks, each focusing on different aspects 
 
 Each task is crucial in understanding and implementing specific components of a compiler. Below are links to individual README files for each task: 📚
 
-- [Task 1: Regular Expressions to Non-Deterministic Finite Automata](task 1/README.md)
+- [Task 1: Regular Expressions to Non-Deterministic Finite Automata](task%1)
 - [Task 2: Non-Deterministic Finite Automata to Deterministic Finite Automata](task_2/README.md)
 - [Task 3: Fallback Deterministic Finite Automata](task3/README.md)
 - [Task 4: Context-Free Grammars Epsilon & Unit Rules Elimination](task4/README.md)
