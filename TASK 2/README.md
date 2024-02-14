@@ -25,7 +25,9 @@
 - 📌 **F** is a string representation of the set of accept states; a semicolon-separated sequence of sorted integer literals.
 
 - 📌 For example 🌟, the NFA for which the state diagram appears below may have the following string representation.🧵
-     `0;1;2;3#a;b#0,a,0;0,b,0;0,b,1;1,a,2;1,e,2;2,b,3;3,a,3;3,b,3#0#3`
+     ```
+  0;1;2;3#a;b#0,a,0;0,b,0;0,b,1;1,a,2;1,e,2;2,b,3;3,a,3;3,b,3#0#3
+     ```
   <br>
   <img src="https://github.com/MohmmedTarek/Compiler/blob/main/FIGURES/TASK2_FIG1.jpg" alt="DFA State Diagram" width="600">
 
