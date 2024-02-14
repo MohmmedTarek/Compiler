@@ -34,7 +34,8 @@ To fulfill this task, adhere to the following requirements:
   - For example 🌟, the following string represents the FDFA whose state diagram appears in the figure below.
     `0;1;2;3#a;b#0,a,0;0,b,1;1,a,2;1,b,1;2,a,0;2,b,3;3,a,3;3,b,3#0#1;2`
   
-  ![alt text](MohmmedTarek/Compiler/FIGURES/TASK3_FIG1.jpg?raw=true)
+  ![FDFA State Diagram](https://github.com/MohmmedTarek/Compiler/blob/main/FIGURES/TASK3_FIG1.jpg)
+
 
 
 ## Running the Program 🚀
