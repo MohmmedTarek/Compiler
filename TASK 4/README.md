@@ -23,9 +23,9 @@ To fulfill this task, adhere to the following requirements:
 - **Example**:
   - For example 🌟, consider the CFG _G1_ = ({S, A, B, C}, {a, b, c, d, x}, R, S), where R is given by the following productions.
     ```
-    S → a A b | x B
-    A → B c | C | c | d
-    B → C A C A | ε
+    S → aAb | xB
+    A → Bc | C | c | d
+    B → CACA | ε
     C → A | b | ε
     ```
     This CFG will have the following string encoding.
