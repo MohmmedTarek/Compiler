@@ -38,8 +38,7 @@ To fulfill this task, adhere to the following requirements:
   - Eliminates epsilon rules from the constructed CFG using the classical algorithm.
   - For example 🌟, after invoking the method on _G1_, the string returned by toString is the following (split for readability)
     ```
-    S;A;B;C#a;b;c;d;x#S/aAb,ab,x,xB;A/Bc,C,c,d;
-    B/A,AA,AC,ACA,C,CA,CAA,CAC,CACA,CC,CCA;C/A,b
+    S;A;B;C#a;b;c;d;x#S/aAb,ab,x,xB;A/Bc,C,c,d;B/A,AA,AC,ACA,C,CA,CAA,CAC,CACA,CC,CCA;C/A,b
     ```
 - **eliminateUnitRules**:
   - Eliminates unit rules from the constructed CFG using the classical algorithm.
@@ -49,8 +48,7 @@ To fulfill this task, adhere to the following requirements:
     ```
 - Additionally, the above two methods can be called sequentially. Thus the result of invoking `toString` after invoking `eliminateEpsilonRules` then `eliminateUnitRules` returns the following (split for readability)
   ```
-  S;A;B;C#a;b;c;d;x#S/aAb,ab,x,xB;A,Bc,b,c,d;
-  B/AA,AC,ACA,Bc,CA,CAA,CAC,CACA,CC,CCA,b,c,d;C/Bc,b,c,d
+  S;A;B;C#a;b;c;d;x#S/aAb,ab,x,xB;A,Bc,b,c,d;B/AA,AC,ACA,Bc,CA,CAA,CAC,CACA,CC,CCA,b,c,d;C/Bc,b,c,d
   ```
 
 ## Running the Program 🚀
