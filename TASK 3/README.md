@@ -5,7 +5,7 @@
 The objective of this task is to implement **a fallback deterministic finite automaton with actions (FDFA)** abstract data type. An FDFA is defined by a sextuple **(Q, Σ, δ, q0, F, A)** where:
 - **Q** is a nonempty, finite set of states.
 - **Σ** is a non-empty, finite set of symbols (an alphabet).
-- **δ : Q×Σ −→ Q** is the transition function.
+- **δ : Q×Σ → Q** is the transition function.
 - **q0 ∈ Q** is the start state.
 - **F ⊆ Q** is the set of accept states.
 - **A** is a function that maps every state in **Q** to an action.
