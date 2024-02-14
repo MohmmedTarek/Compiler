@@ -17,7 +17,7 @@ To fulfill this task, adhere to the following requirements:
 - **Assumptions**: 
   - 🔍 The set of states **Q** is always of the form **{0, . . . , n}** for some **n ∈ ℕ**.
   - 🔍 The alphabet **Σ** is always a subset of the Latin alphabet, not including **ε**.
-  - 🔍 **q0 ∈/ F**.
+  - 🔍 **q0 ∉ F**.
   - 🔍 **A(q)** is the action which appends the token **"lex,q"** to a list, where **lex** is as indicated in Lecture 2 of CSEN1003, and **q** is the state name.
 - **Implementation**:
   - 📌 Implement a class constructor `FallbackDfa` and a method `run`.
