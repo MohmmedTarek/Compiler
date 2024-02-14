@@ -23,13 +23,13 @@ This project implements the following tasks, each focusing on different aspects 
 Each task is crucial in understanding and implementing specific components of a compiler. Below are links to individual README files for each task: 📚
 
 - [Task 1: Regular Expressions to Non-Deterministic Finite Automata](TASK%201)
-- [Task 2: Non-Deterministic Finite Automata to Deterministic Finite Automata](task_2/README.md)
-- [Task 3: Fallback Deterministic Finite Automata](task3/README.md)
-- [Task 4: Context-Free Grammars Epsilon & Unit Rules Elimination](task4/README.md)
-- [Task 5: Context-Free Grammars Left-Recursion Elimination](task5/README.md)
-- [Task 6: Context-Free Grammars First and Follow](task6/README.md)
-- [Task 7: LL(1) Parsing](task7/README.md)
-- [Task 8: ANTLR Lexical Analysis](task8/README.md)
-- [Task 9: ANTLR Parsing](task9/README.md)
+- [Task 2: Non-Deterministic Finite Automata to Deterministic Finite Automata](TASK%202)
+- [Task 3: Fallback Deterministic Finite Automata](TASK%203)
+- [Task 4: Context-Free Grammars Epsilon & Unit Rules Elimination](TASK%204)
+- [Task 5: Context-Free Grammars Left-Recursion Elimination](TASK%205)
+- [Task 6: Context-Free Grammars First and Follow](TASK%206)
+- [Task 7: LL(1) Parsing](TASK%207)
+- [Task 8: ANTLR Lexical Analysis](TASK%208)
+- [Task 9: ANTLR Parsing](TASK%209)
 
 Explore each task to delve deeper into the world of compiler design and implementation! 🌐
