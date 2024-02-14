@@ -12,7 +12,7 @@ To fulfill this task, adhere to the following requirements:
   - 🔍 The set **V** of variables consists of upper-case English letters.
   - 🔍 The start variable is the symbol **S**.
   - 🔍 The set **Σ** of terminals consists of lower-case English letters (except the letter **e**).
-  - 🔍 The letter **e** represents **ε**.
+  - 🔍 The letter **“e”** represents **ε**.
   - 🔍 **ε ∉ L(G)**.
 - **Implementation**:
   - 📌 Implement a class constructor `CfgEpsUnitElim`, and three methods; `toString`, `eliminateEpsilonRules`, and `eliminateUnitRules`.
