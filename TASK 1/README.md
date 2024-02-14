@@ -27,4 +27,7 @@ For this task, you need to implement Thompson's construction algorithm for conve
      is a string representing a single transition; a comma separated sequence **i, a, j** where **i** is a state of **Q**, **a** a symbol of **A** or **e**, and **j** a state of **Q** representing a transition from **i** to **j** on input **a**. These triples are sorted by the source state `i`, then (if the same state has more than one outgoing transition) by the input **a**, and then (if multiple triples share the same source state and input, due to non-determinism) by the destination state **j**.
 - 📌 **I** is an integer literal representing the initial state.
 - 📌 **F** is a string representation of the set of accept states; a semicolon-separated sequence of sorted integer literals.
-- 📌 For example, `toString`, being invoked on a `RegExToNfa` object representing the regular expression `a;b#ab|`, should return the string `0;1;;2;3;4;5#a;b#0,a,1;1,e,5;2,b,3;3,e,5;4,e,0;4,e,2#4#5`
+- 📌 For example, `toString`, being invoked on a `RegExToNfa` object representing the regular expression `a;b#ab|`, should return the string
+  ```
+  0;1;;2;3;4;5#a;b#0,a,1;1,e,5;2,b,3;3,e,5;4,e,0;4,e,2#4#5
+  ```
