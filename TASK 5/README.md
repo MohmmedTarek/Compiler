@@ -44,5 +44,3 @@ To fulfill this task, adhere to the following requirements:
 ## Running the Program 🚀
 
 - To run the program, provide a string description of the CFG to the `CfgLeftRecElim` constructor, then call the necessary methods as described above.
-
-✨ Happy coding! ✨
