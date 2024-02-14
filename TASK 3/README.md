@@ -31,7 +31,9 @@ To fulfill this task, adhere to the following requirements:
     - Note that the function **A** is not encoded in the string representation since it is fixed for all `FDFA` as indicated in the simplifying assumptions above.
 - **Example**:
   - For example 🌟, the following string represents the FDFA whose state diagram appears in the figure below.
-    `0;1;2;3#a;b#0,a,0;0,b,1;1,a,2;1,b,1;2,a,0;2,b,3;3,a,3;3,b,3#0#1;2`
+    ```
+    0;1;2;3#a;b#0,a,0;0,b,1;1,a,2;1,b,1;2,a,0;2,b,3;3,a,3;3,b,3#0#1;2
+    ```
 
     <br>
   
