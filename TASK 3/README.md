@@ -10,7 +10,6 @@ The objective of this task is to implement **a fallback deterministic finite aut
 - **F ⊆ Q** is the set of accept states.
 - **A** is a function that maps every state in **Q** to an action.
 
-Refer to the slides of Lecture 2 of CSEN1003 for more detailed information about the operation of FDFA.
 
 ## Requirements 📋
 
