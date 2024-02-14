@@ -42,4 +42,4 @@ To fulfill this task, adhere to the following requirements:
 ## Running the Program 🚀
 
 - The `run` method simulates the operation of the constructed FDFA on a given string and returns a semicolon-separated sequence of tokens.
-- For instance, running the above FDFA on the string `baababb` produces the output `baaba, 2; bb, 1`.
+- For instance, running the above FDFA on the string `baababb` produces the output `baaba,2;bb,1`.
