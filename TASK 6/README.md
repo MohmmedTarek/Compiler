@@ -37,11 +37,11 @@ To fulfill this task, adhere to the following requirements:
   - The output of each of `first` and `follow` is a semi-colon-separated sequence of items, where each item is a /-separated pair. The first element of each pair is a variable of the grammar and the second element is a string representing the `First` or, respectively, the `Follow` set of that variable. The symbols in these strings should appear in alphabetical order. (`$` always appears first.) The items themselves should appear in the order in which their respective variables appear in the input CFG.
   - For example, the result of calling `first` on _G1_ may have the following form:
     ```
-    S/acei; T/aei; L/acdei
+    S/acei;T/aei;L/acdei
     ```
   - Similarly, the result of calling `follow` on _G1_ may be as follows:
     ```
-    S/$bcd; T/$bcd; L/b
+    S/$bcd;T/$bcd;L/b
     ```
 
 ## Running the Program 🚀
