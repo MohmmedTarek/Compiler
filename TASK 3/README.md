@@ -24,9 +24,9 @@ To fulfill this task, adhere to the following requirements:
   - 📌 Implement a class constructor `FallbackDfa` and a method `run`.
   - 📌 The class constructor `FallbackDfa` takes one parameter which is a string description of an FDFA and constructs an FDFA instance as per the description.
   - 📌 A string describing an FDFA follows the format `Q#A#T#I#F` where:
-    - 📌 **Q** is a string representation of the set of states; a semicolon-separated sequence of sorted integer literals.
-    - 📌 **A** is a string representation of the input alphabet; a semicolon-separated sequence of alphabetically sorted symbols.
-    - 📌 **T** is a string representation of the transition function. T is a semicolon-separated sequence of triples. Each triple is a string representing a single transition; a comma-separated sequence i, a, j where i is a state of **Q**, **a** a symbol of **A**, and j a state of **Q** representing a transition from i to j on input a. These triples are sorted by the source state i and then by the input a.
+    - **Q** is a string representation of the set of states; a semicolon-separated sequence of sorted integer literals.
+    - **A** is a string representation of the input alphabet; a semicolon-separated sequence of alphabetically sorted symbols.
+    - **T** is a string representation of the transition function. T is a semicolon-separated sequence of triples. Each triple is a string representing a single transition; a comma-separated sequence i, a, j where i is a state of **Q**, **a** a symbol of **A**, and j a state of **Q** representing a transition from i to j on input a. These triples are sorted by the source state i and then by the input a.
     - **I** is an integer literal representing the initial state.
     - **F** is a string representation of the set of accept states; a semicolon-separated sequence of sorted integer literals.
     - Note that the function **A** is not encoded in the string representation since it is fixed for all `FDFA` as indicated in the simplifying assumptions above.
